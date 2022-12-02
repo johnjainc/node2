@@ -6,5 +6,5 @@ const app = express();
 
 app.listen( process.env.PORT || 3030);
 app.get('/',(req,res)=>{
-  res.send(<p>home page<p>);
+  res.send(<p>home page</p>);
 });
